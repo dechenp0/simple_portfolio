@@ -5,7 +5,6 @@ import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import Typed from "react-typed";
 import { makeStyles } from "@material-ui/core/styles";
-// import avatar from "../avatar.png";
 import avatar from "../xyz.jpg";
 
 const useStyles = makeStyles((theme) => ({
@@ -49,7 +48,7 @@ const Header = () => {
           strings={[
             "Frontend Developer",
             "Backend Developer",
-            // "Native App Developer",
+           
           ]}
           typeSpeed={40}
           backSpeed={50}
